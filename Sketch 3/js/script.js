@@ -12,6 +12,8 @@ function  setup(){
 
 function draw() {
   ellipse(width/2, height/2, 30);
+  bubble.x = bubble.x + random(-5, 5);
+  bubble.y = bubble.y + random(-5, 5);
 }
 
 function mouseClicked() {
